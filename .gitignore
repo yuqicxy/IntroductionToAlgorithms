@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# ipch folder
+/ipch
+
+# vs folder
+/.vs
+
+#bin folder
+/bin
+
