@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InsertSort", "src\InsertSort\InsertSort.vcxproj", "{F7F595F2-9234-4E11-9002-ECC648E444D5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExampleAlgorithms", "ExampleAlgorithms", "{9D8D2FB5-FBC3-4301-938B-76EB3FD82407}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeSort", "src\MergeSort\MergeSort.vcxproj", "{7A3A44E9-F829-415B-B7F6-FC498F716009}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,9 +25,21 @@ Global
 		{F7F595F2-9234-4E11-9002-ECC648E444D5}.Release|x64.Build.0 = Release|x64
 		{F7F595F2-9234-4E11-9002-ECC648E444D5}.Release|x86.ActiveCfg = Release|Win32
 		{F7F595F2-9234-4E11-9002-ECC648E444D5}.Release|x86.Build.0 = Release|Win32
+		{7A3A44E9-F829-415B-B7F6-FC498F716009}.Debug|x64.ActiveCfg = Debug|x64
+		{7A3A44E9-F829-415B-B7F6-FC498F716009}.Debug|x64.Build.0 = Debug|x64
+		{7A3A44E9-F829-415B-B7F6-FC498F716009}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A3A44E9-F829-415B-B7F6-FC498F716009}.Debug|x86.Build.0 = Debug|Win32
+		{7A3A44E9-F829-415B-B7F6-FC498F716009}.Release|x64.ActiveCfg = Release|x64
+		{7A3A44E9-F829-415B-B7F6-FC498F716009}.Release|x64.Build.0 = Release|x64
+		{7A3A44E9-F829-415B-B7F6-FC498F716009}.Release|x86.ActiveCfg = Release|Win32
+		{7A3A44E9-F829-415B-B7F6-FC498F716009}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7F595F2-9234-4E11-9002-ECC648E444D5} = {9D8D2FB5-FBC3-4301-938B-76EB3FD82407}
+		{7A3A44E9-F829-415B-B7F6-FC498F716009} = {9D8D2FB5-FBC3-4301-938B-76EB3FD82407}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2C9E3CF7-AD75-4DBD-9B32-1DE44C1B3DD4}
