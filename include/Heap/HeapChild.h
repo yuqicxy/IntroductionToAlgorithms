@@ -10,22 +10,22 @@ public:
 	
 	~HeapChild();
 
-	HeapChild& getParent() { return mParent; }
+	HeapChild* getParent() { return mParent; }
 
-	const HeapChild& getParent() const { return mParent; }
+	const HeapChild* getParent() const { return mParent; }
 
-	HeapChild& leftChild() { return mLeftChild; }
+	HeapChild* leftChild() { return mLeftChild; }
 
-	const HeapChild& leftChild() const { return mLeftChild; }
+	const HeapChild* leftChild() const { return mLeftChild; }
 
-	HeapChild& rightChild() { return mRightChild; }
+	HeapChild* rightChild() { return mRightChild; }
 
-	const HeapChild& rightChild() const { return mRightChild; }
+	const HeapChild* rightChild() const { return mRightChild; }
 
 	virtual bool operator<(const HeapChild &rhs);
 
 private:
-	HeapChild &mLeftChild;
-	HeapChild &mRightChild;
-	HeapChild &mParent;
+	HeapChild *mLeftChild;
+	HeapChild *mRightChild;
+	HeapChild *mParent;
 };
