@@ -5,3 +5,4 @@ Introduction To Algorithms
 ## 目录
 * [插入排序(Insert Sort)](#插入排序)
 * [合并排序(Merge Sort)](#合并排序)
+* [最大子数组(Find Max subarray)](#最大子数组)
