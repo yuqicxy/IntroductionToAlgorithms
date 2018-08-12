@@ -26,7 +26,7 @@ bool RandomizeInPlace(std::vector<T>& input)
 		std::mt19937 gen(rd());
 		std::uniform_int_distribution<> dis(i, length - 1);
 		unsigned int index = dis(gen);
-		T tmp = input.at(i);
+		ValueType tmp = input.at(i);
 		input.at(i) = input.at(index);
 		input.at(index) = tmp;
 	}

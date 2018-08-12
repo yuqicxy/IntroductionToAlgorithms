@@ -15,15 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HeapChild.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\..\include\Heap\Export.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\include\Heap\HeapChild.h">
+    <ClInclude Include="..\..\include\Heap\Heap.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
