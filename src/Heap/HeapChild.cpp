@@ -1,18 +1,21 @@
 #include "HeapChild.h"
 
-HeapChild::HeapChild()
+template<typename T>
+HeapChild<T>::HeapChild()
 	:mLeftChild(nullptr)
 	,mRightChild(nullptr)
 	,mParent(nullptr)
 {
 }
 
-HeapChild::~HeapChild()
+template<typename T>
+HeapChild<T>::~HeapChild()
 {
 
 }
 
-bool HeapChild::operator<(const HeapChild &rhs)
+template<typename T>
+bool HeapChild<T>::operator<(const HeapChild *rhs)
 {
 	return true;
 }
